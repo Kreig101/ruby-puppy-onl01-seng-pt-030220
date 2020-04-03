@@ -33,7 +33,6 @@ class Dog
   
   def self.print_all
     @@all.map {|x| puts "#{x.name}"}
-    # binding.pry
      
 end
   
